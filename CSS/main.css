@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Moji';
+    src: url('../fonts/vazir-fonts/fonts/Vazir-Medium.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Moji;
+}
