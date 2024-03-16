@@ -17,43 +17,41 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNav">
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a href="" class="navbar-brand text-warning mx-4">
-            <i class="fas fa-dove" style="font-size: 25px;"> </i>
+        <a href="#" class="navbar-brand text-warning ml-3">
+            <i class="fas fa-dove mx-3" style="font-size: 25px;"></i>
         </a>
-        <div class="collapse navbar-collapse" id="myNav">
-            <ul class="navbar-nav list-unstyled my-4 my-md-0">
-                <li class="nav-item mx-2">
-                    <a href="" class="nav-link">خانه</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a href="" class="nav-link">گالری</a>
-                </li>
+
+        <div class="collapse navbar-collapse" id="mynav">
+            <ul class="navbar-nav list-unstyled my-3 my-md-0">
+                <li class="nav-item mx-2"><a href="#" class="nav-link">خانه</a></li>
+                <li class="nav-item mx-2"><a href="#" class="nav-link">گالری</a></li>
                 <li class="nav-item mx-2 dropdown">
-                    <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">محصولات</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">محصولات</a>
+
                     <div class="dropdown-menu">
-                        <a href="" class="dropdown-item">مرطوب کننده</a>
-                        <a href="" class="dropdown-item">صابون </a>
-                        <a href="" class="dropdown-item">پک داو</a>
+                        <a href="#" class="dropdown-item">مرطوب کننده</a>
+                        <a href="#" class="dropdown-item">صابون</a>
+                        <a href="#" class="dropdown-item">پک داو</a>
                     </div>
                 </li>
-                <li class="nav-item mx-2">
-                    <a href="" class="nav-link">مشتری</a>
-                </li>
+                <li class="nav-item mx-2"><a href="#" class="nav-link">مشتری</a></li>
             </ul>
-            <form action="" class="form-inline ms-auto mx-3">
-                <div class="input-group">
-                    <input type="text" placeholder="جستجو" class="form-control">
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-secondary">
-                            <i class="fas fa-search"></i>
-                        </button>
-                    </div>
-                </div>
-            </form>
         </div>
+
+
+        <form action="" class="form-inline mx-3 ms-auto">
+            <div class="input-group">
+                <input type="text" placeholder="جستجو" class="form-control">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
     </nav>
     <!-- End of Navbar -->
 
@@ -63,20 +61,62 @@
             <div class="row bg-warning align-items-center" style="height: 92vh;">
                 <div class="col-md-6 col-lg-8 text-center">
                     <h1 class="display-3 text-white">
-                        <span class="display-2">داو</span>
                         دوست دار پوست شما
+                        <span class="display-2">داو</span>
                     </h1>
                     <h2 class="display-4 my-5">داو فرق میکنه</h2>
-                    <a href="" class="btn btn-light btn-lg">باشگاه مشتریان</a>
-                    <a href="" class="btn btn-outline-light btn-lg">وبلاگ</a>
+                    <a href="#" class="btn btn-light btn-lg">باشگاه مشتریان</a>
+                    <a href="#" class="btn btn-outline-light btn-lg">وبلاگ</a>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <img src="Images/Products.png" alt="Products" class="img-fluid">
+                    <img src="./Images/Products.png" alt="Products" class="img-fluid d-none d-md-block">
                 </div>
+
             </div>
         </div>
     </section>
+
     <!-- End of Banner -->
+
+    <!-- Features -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="text-warning">مدیون اعتماد شماییم</h1>
+                <p class="text-muted my-5">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                    طراحان گرافیک است</p>
+            </div>
+            <div class="row my-5 text-center">
+
+                <div class="col-lg-4 col-md-6 px-5 mb-5">
+                    <i class="fas fa-award text-warning" style="font-size: 150px;"></i>
+                    <h1 class="text-secondary">نشان برتر</h1>
+                    <p class="text-muted mt-2">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                    </p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 px-5 mb-5">
+                    <i class="fas fa-leaf text-success" style="font-size: 150px;"></i>
+                    <h1 class="text-secondary">کاملا طبیعی </h1>
+                    <p class="text-muted mt-2">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                    </p>
+                </div>
+
+                <div class="col-lg-4 col-md-12 px-5 mb-5">
+                    <i class="fas fa-heartbeat text-danger" style="font-size: 150px;"></i>
+                    <h1 class="text-secondary"> دوستدار سلامتی</h1>
+                    <p class="text-muted mt-2">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- End Of Features -->
 
 
     <script src="JS/jquery-3.7.1.slim.min.js"></script>
